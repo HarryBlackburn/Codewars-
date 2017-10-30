@@ -15,7 +15,7 @@ your function should return the following object (associative array in PHP):
 { C: 2, JavaScript: 1, Ruby: 1 } */
 
 function countLanguages(list) {
-    // thank you for checking out the Coding Meetup kata :)
+    
     return list.reduce(function(obj, item){
       if (item.language in obj)
         obj[item.language] ++;
